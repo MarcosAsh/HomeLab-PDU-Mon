@@ -1,0 +1,239 @@
+** Drc report for pdu.kicad_pcb **
+** Created on 2026-10-28T18:34:43+0000 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 62 DRC violations **
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(88.0100 mm, 105.1406 mm): Segment of C301 on F.Silkscreen
+    @(87.9000 mm, 105.0000 mm): Reference field of U301
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(76.5000 mm, 65.6000 mm): PCB text '2' on F.Silkscreen
+    @(72.8400 mm, 66.0500 mm): Segment of D201 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(59.5000 mm, 65.6000 mm): PCB text '1' on F.Silkscreen
+    @(55.8400 mm, 66.0500 mm): Segment of D101 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(93.5000 mm, 65.6000 mm): PCB text '3' on F.Silkscreen
+    @(89.8400 mm, 66.0500 mm): Segment of D301 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(71.0100 mm, 105.1406 mm): Segment of C201 on F.Silkscreen
+    @(70.9000 mm, 105.0000 mm): Reference field of U201
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(53.9000 mm, 105.0000 mm): Reference field of U101
+    @(54.0100 mm, 105.1406 mm): Segment of C101 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(108.3800 mm, 177.4265 mm): Segment of U1 on F.Silkscreen
+    @(115.9000 mm, 177.6000 mm): PCB text 'W5500-EVB-Pico, RJ45 to the front' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(115.9000 mm, 177.6000 mm): PCB text 'W5500-EVB-Pico, RJ45 to the front' on F.Silkscreen
+    @(123.4000 mm, 177.4265 mm): Segment of U1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(125.8900 mm, 177.7300 mm): Arc of U1 on F.Silkscreen
+    @(115.9000 mm, 177.6000 mm): PCB text 'W5500-EVB-Pico, RJ45 to the front' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(123.4000 mm, 130.4265 mm): Segment of U1 on F.Silkscreen
+    @(123.6500 mm, 130.8900 mm): Segment of D4 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(115.9000 mm, 177.6000 mm): PCB text 'W5500-EVB-Pico, RJ45 to the front' on F.Silkscreen
+    @(126.1600 mm, 178.2770 mm): Segment of U1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(126.5000 mm, 127.7300 mm): Segment of U1 on F.Silkscreen
+    @(115.9000 mm, 177.6000 mm): PCB text 'W5500-EVB-Pico, RJ45 to the front' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(100.2000 mm, 155.6000 mm): PCB text 'NTC' on F.Silkscreen
+    @(94.5400 mm, 151.1900 mm): Rectangle of J6 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(105.2800 mm, 127.7300 mm): Segment of U1 on F.Silkscreen
+    @(115.9000 mm, 177.6000 mm): PCB text 'W5500-EVB-Pico, RJ45 to the front' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(115.9000 mm, 177.6000 mm): PCB text 'W5500-EVB-Pico, RJ45 to the front' on F.Silkscreen
+    @(105.8899 mm, 177.7301 mm): Arc of U1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(105.6200 mm, 127.1830 mm): Segment of U1 on F.Silkscreen
+    @(115.9000 mm, 177.6000 mm): PCB text 'W5500-EVB-Pico, RJ45 to the front' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(94.5400 mm, 160.1900 mm): Rectangle of J5 on F.Silkscreen
+    @(100.2000 mm, 164.6000 mm): PCB text 'DC-OK' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(134.0000 mm, 148.0000 mm): Reference field of U4
+    @(134.4594 mm, 148.1100 mm): Segment of C15 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(134.4594 mm, 137.3100 mm): Segment of C10 on F.Silkscreen
+    @(134.0000 mm, 137.2000 mm): Reference field of U3
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(145.6000 mm, 165.7000 mm): Segment on F.Silkscreen
+    @(147.8000 mm, 166.6000 mm): Reference field of Q3
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(135.8000 mm, 166.6000 mm): Reference field of Q2
+    @(137.4000 mm, 165.7000 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(135.8000 mm, 166.6000 mm): Reference field of Q2
+    @(136.4000 mm, 166.7000 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(135.2000 mm, 165.6000 mm): Segment on F.Silkscreen
+    @(135.8000 mm, 166.6000 mm): Reference field of Q2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(134.6000 mm, 171.0500 mm): Reference field of J3
+    @(135.0400 mm, 170.5600 mm): Segment of Q2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(134.6000 mm, 171.0500 mm): Reference field of J3
+    @(136.5600 mm, 170.5600 mm): Segment of Q2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(146.6000 mm, 166.7000 mm): Segment on F.Silkscreen
+    @(147.8000 mm, 166.6000 mm): Reference field of Q3
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(130.6000 mm, 176.8900 mm): Segment of J3 on F.Silkscreen
+    @(134.4000 mm, 177.4000 mm): PCB text 'FAN1' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(127.6375 mm, 177.4950 mm): Reference field of U1
+    @(129.2500 mm, 178.0000 mm): Segment of J3 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(135.6800 mm, 176.8900 mm): Segment of J3 on F.Silkscreen
+    @(134.4000 mm, 177.4000 mm): PCB text 'FAN1' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(142.6000 mm, 176.8900 mm): Segment of J4 on F.Silkscreen
+    @(146.4000 mm, 177.4000 mm): PCB text 'FAN2' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(147.6800 mm, 176.8900 mm): Segment of J4 on F.Silkscreen
+    @(146.4000 mm, 177.4000 mm): PCB text 'FAN2' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(121.9000 mm, 105.0000 mm): Reference field of U501
+    @(122.0100 mm, 105.1406 mm): Segment of C501 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(139.0100 mm, 105.1406 mm): Segment of C601 on F.Silkscreen
+    @(138.9000 mm, 105.0000 mm): Reference field of U601
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(94.5400 mm, 142.1900 mm): Rectangle of J7 on F.Silkscreen
+    @(100.2000 mm, 146.6000 mm): PCB text 'LED' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(104.9000 mm, 105.0000 mm): Reference field of U401
+    @(105.0100 mm, 105.1406 mm): Segment of C401 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(123.8400 mm, 66.0500 mm): Segment of D501 on F.Silkscreen
+    @(127.5000 mm, 65.6000 mm): PCB text '5' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(144.5000 mm, 65.6000 mm): PCB text '6' on F.Silkscreen
+    @(140.8400 mm, 66.0500 mm): Segment of D601 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(110.5000 mm, 65.6000 mm): PCB text '4' on F.Silkscreen
+    @(106.8400 mm, 66.0500 mm): Segment of D401 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(115.9000 mm, 177.6000 mm): PCB text 'W5500-EVB-Pico, RJ45 to the front' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(152.9000 mm, 146.0000 mm): PCB text 'R14 12V / R15 5V fan' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(134.0000 mm, 148.0000 mm): Reference field of U4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(87.9000 mm, 105.0000 mm): Reference field of U301
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(138.9000 mm, 105.0000 mm): Reference field of U601
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(70.9000 mm, 105.0000 mm): Reference field of U201
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(134.0000 mm, 137.2000 mm): Reference field of U3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.9000 mm, 105.0000 mm): Reference field of U401
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(108.3800 mm, 130.4265 mm): Segment of U1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(53.9000 mm, 105.0000 mm): Reference field of U101
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(121.9000 mm, 105.0000 mm): Reference field of U501
+[lib_footprint_mismatch]: Footprint 'RaspberryPi_Pico_Common_THT' does not match copy in library 'Module'.
+    Local override; warning
+    @(107.0000 mm, 128.6000 mm): Footprint U1
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(152.0000 mm, 178.5000 mm): Segment on Edge.Cuts
+    @(79.3900 mm, 169.9900 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(152.0000 mm, 178.5000 mm): Segment on Edge.Cuts
+    @(93.4100 mm, 169.9900 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(152.0000 mm, 178.5000 mm): Segment on Edge.Cuts
+    @(58.1900 mm, 169.9900 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(152.0000 mm, 178.5000 mm): Segment on Edge.Cuts
+    @(72.2100 mm, 169.9900 mm): Segment of J1 on F.Silkscreen
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(112.0000 mm, 135.2200 mm): Track [+3V3] on F.Cu, length 37.0200 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(60.5000 mm, 98.6000 mm): Track [+3V3] on In2.Cu, length 90.0000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(60.5000 mm, 115.4000 mm): Track [ALERT_N] on B.Cu, length 90.0000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(60.5000 mm, 116.3000 mm): Track [SDA] on B.Cu, length 47.6400 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(60.5000 mm, 117.2000 mm): Track [SCL] on B.Cu, length 48.3800 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(60.5000 mm, 118.1000 mm): Track [FLT_N] on B.Cu, length 90.0000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(56.5000 mm, 122.5000 mm): Track [+24V_SW] on F.Cu, length 91.0000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(109.6200 mm, 116.3000 mm): Track [SDA_B] on B.Cu, length 40.8800 mm
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

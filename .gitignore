@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+target/
+pcb/*.ses.stamp
+pcb/freerouting.log
+pcb/gen_run.log
+pcb/place_snapshot.*
+pcb/pdu.dsn
+datasheets/*.pdf
+datasheets/*.txt
+*.uf2

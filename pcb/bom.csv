@@ -1,0 +1,92 @@
+qty,refs,value,description,LCSC,footprint,fit
+2,C1 C2,470u,"470 uF 35 V, input",C976030,Capacitor_SMD:CP_Elec_10x10.5,fit
+2,C10 C15,100n,boot cap,C14663,Capacitor_SMD:C_0603_1608Metric,fit
+6,C101 C201 C301 C401 C501 C601,100n,"100 nF 50 V, eFuse IN",C14663,Capacitor_SMD:C_0603_1608Metric,fit
+6,C102 C202 C302 C402 C502 C602,56n,C_dVdT 56 nF: 28 ms ramp,C282072,Capacitor_SMD:C_0603_1608Metric,fit
+7,C103 C203 C303 C403 C503 C603 C5,100n,"100 nF, INA237 VS",C14663,Capacitor_SMD:C_0603_1608Metric,fit
+6,C104 C204 C304 C404 C504 C604,470u,"470 uF 35 V, port output",C976030,Capacitor_SMD:CP_Elec_10x10.5,fit
+6,C105 C205 C305 C405 C505 C605,1u,"1 uF 50 V X7R, port output",C1848,Capacitor_SMD:C_1206_3216Metric,fit
+2,C11 C12,22u,"22 uF 25 V X5R, 5 V out",C12891,Capacitor_SMD:C_1206_3216Metric,fit
+1,C16,22u,"22 uF 25 V X5R, 12 V out",C12891,Capacitor_SMD:C_1206_3216Metric,fit
+1,C18,100n,NTC filter,C14663,Capacitor_SMD:C_0603_1608Metric,fit
+1,C19,10u,"10 uF 25 V, VSYS (under the module)",C13585,Capacitor_SMD:C_1206_3216Metric,fit
+1,C20,10u,"10 uF 25 V, 3V3 (under the module, on the bar)",C13585,Capacitor_SMD:C_1206_3216Metric,fit
+1,C3,1u,"1 uF 50 V X7R, input",C1848,Capacitor_SMD:C_1206_3216Metric,fit
+1,C6,220n,"220 nF 50 V, soft switch",C64705,Capacitor_SMD:C_0603_1608Metric,fit
+1,C7,100n,"24V_SW sense filter, at the Pico pin",C14663,Capacitor_SMD:C_0603_1608Metric,fit
+2,C8 C13,2u2,"2.2 uF 50 V X7R, buck input",C50254,Capacitor_SMD:C_1206_3216Metric,fit
+2,C9 C14,100n,"100 nF 50 V, buck input",C14663,Capacitor_SMD:C_0603_1608Metric,fit
+1,D1,SMCJ26A,"TVS 26 V, input",C152085,Diode_SMD:D_SMC,fit
+6,D101 D201 D301 D401 D501 D601,SMBJ26A,"TVS 26 V, port output",C123820,Diode_SMD:D_SMB,fit
+1,D2,12V,"zener 12 V, gate clamp (K to source)",C173429,Diode_SMD:D_SOD-123,fit
+2,D3 D5,SS14,"Schottky 40 V 1 A, buck catch",C2480,Diode_SMD:D_SMA,fit
+1,D4,SS14,Schottky +5V to VSYS (USB on the Pico stays safe),C2480,Diode_SMD:D_SMA,fit
+1,F1,15A,fuse 15 A 2410 (Littelfuse 451),C44480,Fuse:Fuse_Littelfuse-NANO2-451_453,fit
+6,F101 F201 F301 F401 F501 F601,5A,fuse 5 A 1206 fast,C57525,Fuse:Fuse_1206_3216Metric,fit
+1,J1,24V IN,"Mini-Fit Jr 2x3 right angle, from HRP-300 +V/-V",C114098,Connector_Molex:Molex_Mini-Fit_Jr_5569-06A2_2x03_P4.20mm_Horizontal,fit
+1,J101,PD1,"XPM52C 65 W USB-C PD module, owner-fitted on 2 pins",,pdu:pdmodule,fit
+1,J2,BUTTON,"Mini-Fit Jr 2x3 right angle, latching button (original pinout)",C114098,Connector_Molex:Molex_Mini-Fit_Jr_5569-06A2_2x03_P4.20mm_Horizontal,fit
+1,J201,PD2,"XPM52C 65 W USB-C PD module, owner-fitted on 2 pins",,pdu:pdmodule,fit
+1,J3,FAN1,4-pin PWM fan header (Molex 47053),C240840,Connector:FanPinHeader_1x04_P2.54mm_Vertical,fit
+1,J301,PD3,"XPM52C 65 W USB-C PD module, owner-fitted on 2 pins",,pdu:pdmodule,fit
+1,J4,FAN2,4-pin PWM fan header (Molex 47053),C240840,Connector:FanPinHeader_1x04_P2.54mm_Vertical,fit
+1,J401,PD4,"XPM52C 65 W USB-C PD module, owner-fitted on 2 pins",,pdu:pdmodule,fit
+1,J5,DC-OK,"JST PH 2-pin: HRP CN100 pin 3 DC-OK, pin 5 GND",C5251182,Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,fit
+1,J501,PD5,"XPM52C 65 W USB-C PD module, owner-fitted on 2 pins",,pdu:pdmodule,fit
+1,J6,NTC,JST PH 2-pin: 10 k NTC on the PSU case,C5251182,Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,fit
+1,J601,PD6,"XPM52C 65 W USB-C PD module, owner-fitted on 2 pins",,pdu:pdmodule,fit
+1,J7,LED,"JST PH 2-pin: front status LED (1 anode, 2 cathode)",C5251182,Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,fit
+1,L1,33u,"33u shielded 5040, buck",C86618,Inductor_SMD:L_Sunlord_SWPA5040S,fit
+1,L2,47u,"47u shielded 5040, buck",C86617,Inductor_SMD:L_Sunlord_SWPA5040S,fit
+1,Q1,NCEP40PT15D,"P-FET 40 V, master switch",C918237,Package_TO_SOT_SMD:TO-263-2,fit
+6,Q101 Q201 Q301 Q401 Q501 Q601,2N7002,port off switch on SHDN,C8545,Package_TO_SOT_SMD:SOT-23,fit
+2,Q2 Q3,2N7002,fan PWM open drain,C8545,Package_TO_SOT_SMD:SOT-23,fit
+1,Q4,2N7002,LED low side,C8545,Package_TO_SOT_SMD:SOT-23,fit
+1,R1,4k7,bleeder 4.7 k 1206,C17936,Resistor_SMD:R_1206_3216Metric,fit
+2,R10 R12,10k,FB bottom,C25804,Resistor_SMD:R_0603_1608Metric,fit
+6,R101 R201 R301 R401 R501 R601,4k53,R_ILIM 4.53 k 1 %: 3.97 A,C25971,Resistor_SMD:R_0603_1608Metric,fit
+6,R102 R202 R302 R402 R502 R602,442k,"UVLO/OVP divider top, 1 %",C23175,Resistor_SMD:R_0603_1608Metric,fit
+6,R103 R203 R303 R403 R503 R603,8k06,"UVLO/OVP divider middle, 1 %",C23112,Resistor_SMD:R_0603_1608Metric,fit
+6,R104 R204 R304 R404 R504 R604,20k,"UVLO/OVP divider bottom, 1 %",C4184,Resistor_SMD:R_0603_1608Metric,fit
+6,R105 R205 R305 R405 R505 R605,100k,port off gate pull-down,C25803,Resistor_SMD:R_0603_1608Metric,fit
+6,R106 R206 R306 R406 R506 R606,10m,10 mOhm 1 % 0.5 W shunt,C105362,Resistor_SMD:R_1206_3216Metric,fit
+1,R11,147k,FB top,C22878,Resistor_SMD:R_0603_1608Metric,fit
+1,R14,0R,fan supply 12 V (fit this or R15),C21189,Resistor_SMD:R_0603_1608Metric,fit
+0,R15,0R,fan supply 5 V (DNP by default),C21189,Resistor_SMD:R_0603_1608Metric,DNP
+2,R16 R19,100k,PWM gate pull-down (MCU off = full speed),C25803,Resistor_SMD:R_0603_1608Metric,fit
+2,R17 R20,10k,tach pull-up,C25804,Resistor_SMD:R_0603_1608Metric,fit
+2,R18 R21,1k,tach series,C21190,Resistor_SMD:R_0603_1608Metric,fit
+1,R2,2m,2 mOhm 1 % 2512 input shunt,C160590,Resistor_SMD:R_2512_6332Metric,fit
+1,R22,15k,DC-OK divider top (5.6 V -> 3.2 V),C22809,Resistor_SMD:R_0603_1608Metric,fit
+1,R23,20k,DC-OK divider bottom,C4184,Resistor_SMD:R_0603_1608Metric,fit
+1,R24,10k,NTC pull-up to ADC_VREF,C25804,Resistor_SMD:R_0603_1608Metric,fit
+1,R25,220R,"LED current, from +5V",C22962,Resistor_SMD:R_0603_1608Metric,fit
+1,R26,100k,LED gate pull-down,C25803,Resistor_SMD:R_0603_1608Metric,fit
+1,R27,4k7,SDA pull-up,C23162,Resistor_SMD:R_0603_1608Metric,fit
+1,R28,4k7,SCL pull-up,C23162,Resistor_SMD:R_0603_1608Metric,fit
+1,R29,10k,FLT_N pull-up,C25804,Resistor_SMD:R_0603_1608Metric,fit
+1,R3,47k,button to gate,C25819,Resistor_SMD:R_0603_1608Metric,fit
+1,R30,10k,ALERT_N pull-up,C25804,Resistor_SMD:R_0603_1608Metric,fit
+1,R31,4k7,SDA_B pull-up,C23162,Resistor_SMD:R_0603_1608Metric,fit
+1,R32,4k7,SCL_B pull-up,C23162,Resistor_SMD:R_0603_1608Metric,fit
+1,R4,100R,gate series,C22775,Resistor_SMD:R_0603_1608Metric,fit
+1,R5,100k,gate to source,C25803,Resistor_SMD:R_0603_1608Metric,fit
+1,R6,100k,24V_SW sense divider top,C25803,Resistor_SMD:R_0603_1608Metric,fit
+1,R7,10k,24V_SW sense divider bottom,C25804,Resistor_SMD:R_0603_1608Metric,fit
+1,R9,56k,FB top,C23206,Resistor_SMD:R_0603_1608Metric,fit
+1,TP1,GND,test pad GND,,TestPoint:TestPoint_Pad_D1.0mm,fit
+1,TP2,+5V,test pad +5V,,TestPoint:TestPoint_Pad_D1.0mm,fit
+1,TP3,+3V3,test pad +3V3,,TestPoint:TestPoint_Pad_D1.0mm,fit
+1,TP4,+12V,test pad +12V,,TestPoint:TestPoint_Pad_D1.0mm,fit
+1,TP5,+24V_SW,test pad +24V_SW,,TestPoint:TestPoint_Pad_D1.0mm,fit
+1,U1,W5500-EVB-Pico,"WIZnet W5500-EVB-Pico on 2x 1x20 8.5 mm female headers, owner-fitted",,Module:RaspberryPi_Pico_Common_THT,fit
+6,U101 U201 U301 U401 U501 U601,TPS16630,TPS16630 60 V 6 A eFuse,C1849461,pdu:htssop20,fit
+1,U102,INA237,"INA237 power monitor, I2C A 0x41",C2864837,Package_SO:VSSOP-10_3x3mm_P0.5mm,fit
+1,U2,INA237,"INA237 input monitor, I2C 0x40",C2864837,Package_SO:VSSOP-10_3x3mm_P0.5mm,fit
+1,U202,INA237,"INA237 power monitor, I2C A 0x44",C2864837,Package_SO:VSSOP-10_3x3mm_P0.5mm,fit
+1,U3,LMR16006X,"LMR16006X 60 V 0.6 A buck, 5V",C87080,Package_TO_SOT_SMD:TSOT-23-6,fit
+1,U302,INA237,"INA237 power monitor, I2C A 0x45",C2864837,Package_SO:VSSOP-10_3x3mm_P0.5mm,fit
+1,U4,LMR16006X,"LMR16006X 60 V 0.6 A buck, 12V",C87080,Package_TO_SOT_SMD:TSOT-23-6,fit
+1,U402,INA237,"INA237 power monitor, I2C B 0x40",C2864837,Package_SO:VSSOP-10_3x3mm_P0.5mm,fit
+1,U502,INA237,"INA237 power monitor, I2C B 0x41",C2864837,Package_SO:VSSOP-10_3x3mm_P0.5mm,fit
+1,U602,INA237,"INA237 power monitor, I2C B 0x44",C2864837,Package_SO:VSSOP-10_3x3mm_P0.5mm,fit

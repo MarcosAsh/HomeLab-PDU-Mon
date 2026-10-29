@@ -1,0 +1,7 @@
+(version 1)
+(rule "thermal spokes"
+  (condition "A.Type == 'Pad'")
+  (constraint min_resolved_spokes 1))
+(rule "eFuse thermal vias"
+  (condition "A.Type == 'Pad' && A.Pad_Number == '21' && B.Type == 'Pad' && B.Pad_Number == '21'")
+  (constraint hole_to_hole (min 0.3mm)))

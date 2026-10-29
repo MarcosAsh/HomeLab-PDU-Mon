@@ -1,0 +1,22 @@
+JLCPCB assembly summary for HomeLab PDU Mon v1 (not a quote; check the live quote before ordering)
+
+SMD parts per board: 158, THT parts per board: 7, 42 LCSC lines (23 extended, ~$3 setup each)
+parts per board at 1+ prices: $38.55
+PCB: 104 x 138.5 mm, 4 layers (In1 solid GND), 1.6 mm, 2 oz outer copper (required for the 3 A port paths)
+top side only (no bottom-side parts)
+
+low stock (less than 5 boards' worth): none
+not assembled: R15 (DNP: fit it instead of R14 for 5 V fans), test pads, mounting holes
+
+owner-fitted after delivery:
+  WIZnet W5500-EVB-Pico on 2x 1x20 2.54 mm headers into U1 (RJ45 end at the board's front edge)
+  6x XPM52C 65 W USB-C PD modules (search 'DC to 65w fast charging USB-C board'), standing on J101-J601: 90 degree pin header on + (square pad), bent wire on -, as the original Shrike Lab build
+  M2.5 standoffs at H1, H2 (between the modules), M3 standoffs at H3-H6, 6 mm tall
+
+notes:
+  CPL is footprint origins in board mm from the bottom-left corner, y up. JLC's rotation
+  for SOT-23, TSOT-23-6, SMA/SMB/SMC, SOD-123 and the HTSSOP often needs a 90 or 180 degree
+  nudge in the placement preview: check pin 1 of U101-U601, U2-U4, Q1-Q4 and every diode's
+  cathode bar before paying.
+  Mini-Fit Jr (J1, J2), fan headers (J3, J4) and JST PH (J5-J7) are through-hole: JLC fits them
+  by hand, or leave them off the order and solder them yourself.
