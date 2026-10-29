@@ -1,0 +1,29 @@
+[package]
+name = "pdu-fw"
+version = "0.1.0"
+edition = "2024"
+license = "CERN-OHL-S-2.0"
+
+[dependencies]
+embassy-executor = { version = "0.10", features = ["platform-cortex-m", "executor-thread"] }
+embassy-rp = { version = "0.10", features = ["rp2040", "time-driver", "critical-section-impl"] }
+embassy-time = "0.5"
+embassy-sync = "0.8"
+embassy-futures = "0.1"
+embassy-net = { version = "0.9", features = ["tcp", "dhcpv4", "dhcpv4-hostname", "proto-ipv4", "medium-ethernet"] }
+embassy-net-wiznet = "0.3"
+embedded-hal-async = "1.0"
+embedded-hal-bus = { version = "0.1", features = ["async"] }
+embedded-io-async = "0.7"
+cortex-m = { version = "0.7", features = ["inline-asm"] }
+cortex-m-rt = "0.7"
+portable-atomic = { version = "1", features = ["critical-section"] }
+static_cell = "2"
+heapless = "0.9"
+libm = "0.2"
+panic-reset = "0.1"
+
+[profile.release]
+debug = 2
+lto = true
+opt-level = "s"
